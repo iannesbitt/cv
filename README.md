@@ -26,6 +26,6 @@ make
 
 Extra commands:
 
-`make show` - open built PDF
-`make clean` - delete auxillary LaTeX files
-`make all` - like `make` but re-builds all auxillary resources
+- `make show` - open built PDF
+- `make clean` - delete auxillary LaTeX files
+- `make all` - like `make` but re-builds all auxillary resources
