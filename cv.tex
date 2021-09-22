@@ -1,0 +1,511 @@
+\documentclass[a4paper,12pt,sans,colorlinks]{moderncv/moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\recomputelengths
+\usepackage{academicons}
+
+% Configure moderncv
+\moderncvstyle{classic}
+\moderncvcolor{red}
+\moderncvicons{awesome}
+
+% Configure style of urls
+\urlstyle{same}
+
+% Redefine ORCID icon so it can be showed by ubuntu 18.04
+\renewcommand*\orcidsocialsymbol{{\aiOrcid}~}
+
+% Information
+% -----------
+\firstname{Ian M.}
+\familyname{Nesbitt}
+\email{ian.nesbitt@gmail.com}
+\homepage{https://www.iannesbitt.org}
+\social[github]{iannesbitt}
+\social[orcid]{0000-0001-5828-6070}
+\extrainfo{%
+    Last modified: \today{}
+}
+\title{%
+    \small
+    Orono, ME, USA
+    \\
+    School of Earth and Climate Sciences, University of Maine
+    \\
+    Member of the
+    \href{http://wiki.geodynamics.umaine.edu/}{Geodynamics Numerical Modeling Laboratory}
+}
+% \address{street and number}{postcode city}
+% \mobile{mobile}: optional
+% \phone{phone}: optional
+% \fax{fax}: optional
+% \photo[64pt]{picture}
+% \quote{Some quote}
+
+
+% Authors
+% -------
+\newcommand{\me}{\href{https://www.iannesbitt.org}{Ian M. Nesbitt}}
+\newcommand{\seth}{\href{https://www.alpinesciences.net}{Seth W. Campbell}}
+\newcommand{\sean}{\href{https://umaine.edu/earthclimate/people/sean-m-c-smith/}{Sean M.C. Smith}}
+\newcommand{\bess}{\href{https://www.colby.edu/directory/profile/bess.koffman/}{Bess G. Koffman}}
+\newcommand{\stevearcone}{\href{https://engineering.dartmouth.edu/community/faculty/steven-arcone}{Steven A. Arcone}}
+\newcommand{\kristin}{\href{https://climatechange.umaine.edu/people/kristin-schild/}{Kristin M. Schild}}
+\newcommand{\stevebernsen}{Steven P. Bernsen}
+\newcommand{\chris}{\href{https://umaine.edu/earthclimate/people/christopher-gerbi/}{Christopher C. Gerbi}}
+\newcommand{\richard}{Richard I. Boaz}
+\newcommand{\peter}{\href{https://umaine.edu/earthclimate/people/peter-koons/}{Peter O. Koons}}
+\newcommand{\aaron}{\href{https://umaine.edu/earthclimate/people/aaron-putnam/}{Aaron E. Putnam}}
+\newcommand{\karl}{\href{https://umaine.edu/earthclimate/people/karl-kreutz/}{Karl J. Kreutz}}
+\newcommand{\mea}{\href{https://geosciences.williams.edu/profile/msc1/}{Mea S. Cook}}
+\newcommand{\david}{\href{https://geosciences.williams.edu/profile/ddethier/}{David P. Dethier}}
+
+% Things (software, companies)
+% -------
+\newcommand{\rsudp}{\href{https://github.com/iannesbitt/readgssi}{readgssi}}
+\newcommand{\seidart}{\href{https://github.com/UMainedynamics/SeidarT}{SeidarT}}
+\newcommand{\raspishake}{\href{https://raspberryshake.org}{Raspberry Shake, S.A.}}
+\newcommand{\efour}{\href{https://e4sciences.com}{e4sciences LLC}}
+
+
+% doi function
+\newcommand{\doi}[1]{%
+    \href{https://doi.org/#1}{#1}
+}
+
+
+\begin{document}
+
+% Configure colors of links
+% \hypersetup{allcolors=[rgb]{0.34765625, 0.69921875, 0.296875}}
+\hypersetup{allcolors=[rgb]{0.88, 0.17, 0.17}}
+
+\maketitle
+\vspace{-3em}
+
+% Example of cventry
+% \cventry[1em]
+% {}  % date
+% {} % degree/job title
+% {} % institution
+% {} % localization
+% {} % grade (optional)
+% {} % description (optional)
+
+\section{Education}
+
+\cventry[1em]
+{Since 2017}
+{Masters Student in Earth and Climate Sciences}
+{School of Earth and Climate Sciences,
+College of Natural Sciences, Forestry, and Agriculture,
+University of Maine}
+{Orono, ME, USA}
+{}
+{
+    \emph{Thesis}: Using diverse methods to determine the volume and stratigraphy
+    of sediment in a formerly glaciated lake in central Maine, USA
+    \\
+    \emph{Advisor}: \seth{}, \emph{Co-advisor}: \sean{}
+    \\
+    \emph{Associated Projects}: \rsudp{}, a Python tool to read and process radar data;
+    \seidart{}, a seismic and radar survey modeling toolbox
+}
+
+\cventry[1em]
+{2009--2013}
+{Bachelor of Arts in Geosciences with Honors}
+{Williams College}
+{Williamstown, MA, USA}
+{}
+{
+    \emph{Thesis}: A comparative study of snowmelt-driven water budgets in
+    adjacent alpine basins, Niwot Ridge, Colorado Front Range
+    \\
+    \emph{Advisor}: \david{}
+}
+
+
+\section{Awards and Scholarships}
+
+\cvline
+{2021}
+{Golden Key (invited)}
+
+\cvline
+{2018--2023}
+{Co-President, Williams College class of 2013}
+
+\cvline
+{2013}
+{Sigma Xi induction}
+
+\cvline
+{2012}
+{Williams College Class of 1960 Scholar in Geosciences}
+
+
+\section{Work Experience}
+
+\cventry[1em]
+{2018--2020}
+{Lead Scientist}
+{\raspishake{}}
+{Boquete, Chiriqui, Panama}
+{}
+{
+    \emph{Duties}: Technical support, software development,
+    QA/QC of seismic instruments, development and QA/QC of
+    educational materials.
+    \\
+    \emph{Projects}: \url{https://github.com/raspishake/rsudp}
+}
+
+\cventry[1em]
+{2019--2020}
+{Lead Geophysicist}
+{Allan Hills Antarctic Expedition I-165-M,
+Princeton University - NSF Award Number 1744993}
+{McMurdo Station, Antarctica}
+{}
+{
+    \emph{Duties}: Collected and processed 100 km of ground-penetrating
+    radar (GPR) survey data from a blue ice area on the eastern side of
+    the Trans-Antarctic Mountains.
+}
+
+\cventry[1em]
+{2014--2017}
+{Geophysical Scientist}
+{\efour{}}
+{Newtown, CT, USA}
+{}
+{
+    \emph{Duties}: Led field team for many types of geophysical survey
+    including Mobile LiDAR, ground-penetrating radar, high-precision GPS,
+    multibeam echosounding, sub-bottom seismic, sidescan sonar. Field
+    interpretation, and on-the-ground operations decisionmaking including
+    boat handling.
+    \\
+    \emph{Projects}: Created survey-to-delivery workflow for 3D LiDAR
+    end-user deliverables.
+}
+
+\cventry[1em]
+{2013--2014}
+{Assistant Nordic Ski Coach}
+{St. Michael's College}
+{Colchester, VT, USA}
+{}
+{
+    \emph{Duties}: Created and supervised individualized training plans
+    for athletes, technique instruction, race day logistics including
+    ski preparation
+}
+
+
+\section{Teaching}
+
+% \cventry[1em]
+% {2021}  % date
+% {Certified Carpentries Instructor} % degree/job title
+% {The Carpentries} % institution
+% {} % localization
+% {} % grade (optional)
+% {} % description (optional)
+
+\cventry[1em]
+{2018}
+{Global Environmental Change - ERS 201}
+{University of Maine}
+{Orono, ME, USA}
+{}
+{
+    \karl{} and \me{} instructed students in accepted and
+    debated climate theory from an earth systems perspective.
+}
+
+\cventry[1em]
+{2017}
+{Earth Systems - ERS 200}
+{University of Maine}
+{Orono, ME, USA}
+{}
+{
+    \aaron{}, \sean{}, \peter{}, and \me{} instructed students
+    in earth systems theory.
+}
+
+\cventry[1em]
+{2012--2013}
+{GIS and Remote Sensing}
+{Williams College}
+{Williamstown, MA, USA}
+{}
+{
+    \david{} and \me{} instructed students in traditional and
+    emerging geomorphologic theory, methods, and practice
+}
+
+\cventry[1em]
+{2012}
+{Geomorphology}
+{Williams College}
+{Williamstown, MA, USA}
+{}
+{
+    \david{} and \me{}
+    instructed students in geographical information systems (GIS)
+    theory, technology and software, and advised in the
+    application of these methods via end-of-term projects
+}
+
+
+
+
+\section{Publications}
+
+\subsection{Peer-reviewed scientific articles}
+
+\cventry[1em]
+{in prep.}
+{GPR use in paleolimnology}
+{}
+{}
+{}
+{
+    \me{}, \seth{}, \stevearcone{}, and \sean{}
+}
+
+\cventry[1em]
+{in review}
+{The sediment delivery continuum from deglaciation to the modern
+watershed based on lake sedimentary deposits in the Northeastern
+USA}
+{Quaternary Research}
+{}
+{}
+{
+    \me{}, \seth{}, \sean{}, \bess{}, \stevearcone{},
+    and \kristin{}
+}
+
+\cventry[1em]
+{in review}
+{rsudp: A Python package for real-time seismic
+monitoring with Raspberry Shake instruments}
+{Journal of Open Source Software}
+{}
+{}
+{
+    \me{}, \richard, and Justin Long
+    \\
+    doi: \doi{10.21105/joss.02565}
+}
+
+\cventry[1em]
+{2020}
+{Global quieting of high-frequency seismic noise
+due to COVID-19 pandemic lockdown measures}
+{Science}
+{}
+{}
+{
+    Thomas Lecocq, Stephen P Hicks, Koen Van Noten,
+    Kasper van Wijk, Paula Koelemeijer, Raphael SM De Plaen,
+    Frédérick Massin, Gregor Hillers, Robert E Anthony,
+    Maria-Theresia Apoloner, ... \me{} et al.
+    \\
+    doi: \doi{10.1126/science.abd2438}
+}
+
+\cventry[1em]
+{2016}
+{Tracing subarctic Pacific water masses with benthic
+foraminiferal stable isotopes during the LGM and late
+Pleistocene}
+{Deep-Sea Research Part II: Topical Studies in Oceanography}
+{}
+{}
+{
+    \mea{}, A. Christina Ravelo, Alan C. Mix, \me{},
+    and Nari V. Miller
+    \\
+    doi: \doi{10.1016/j.dsr2.2016.02.006}
+}
+
+
+\newpage
+\subsection{Conference proceedings and presentations}
+
+\cventry[1em]
+{2019}
+{A decision-making framework for sedimentation analyses in
+dammed river corridor impoundments
+}
+{Geological Society of America Abstracts with Programs 51}
+{Portland, ME}
+{Talk}
+{
+    \me{}, \sean{}, \bess{}, \seth{}, and \stevearcone{}
+}
+
+\cventry[1em]
+{2018}
+{Sedimentary architecture and accumulation rates of
+multiple lakes in New England, USA}
+{AGU Fall Meeting Abstracts 2018}
+{Washington, D.C.}
+{Poster NS41B-0830}
+{
+    \me{}, \seth{}, \stevearcone{}, \sean{}, and \bess{}
+}
+
+\cventry[1em]
+{2018}
+{Holocene sediment volume determined by
+ground-penetrating radar and sidescan sonar in Maine, USA}
+{Geological Society of America, Northeastern Section - 53rd Annual Meeting}
+{}
+{Talk}
+{
+    \me{}, \seth{}, \stevearcone{}, and \sean{}
+}
+
+\cventry[1em]
+{2017}
+{Using ground-penetrating radar and sidescan sonar to
+compare lake bottom geology in New England}
+{AGU Fall Meeting Abstracts 2017}
+{New Orleans, LA}
+{Talk PP44B-01}
+{
+    \me{}, \seth{}, \stevearcone{}, and \sean{}
+}
+
+\cventry[1em]
+{2017}
+{New England lake bottom geology and sedimentation
+rates derived from ground-penetrating radar}
+{GSA Annual Meeting}
+{Seattle, WA}
+{}
+{
+    \seth{}, \me{}, \stevearcone{}, \sean{}
+}
+
+\cventry[1em]
+{2014}
+{Tracing Bering Sea circulation with benthic
+foraminiferal stable isotopes during the Pleistocene}
+{AGU Fall Meeting Abstracts 2014}
+{}
+{PP23D-08}
+{
+    \mea{}, A. Christina Ravelo, Alan C. Mix, \me{},
+    and Nari V. Miller
+}
+
+\cventry[1em]
+{2013}
+{A comparative study of snowmelt-driven water budgets in
+adjacent alpine basins, Niwot Ridge, Colorado Front Range}
+{Geological Society of America, Northeastern Section - 48th Annual Meeting}
+{Bretton Woods, NH}
+{}
+{
+    \me{} and \david{}
+}
+
+
+\section{Open-source software}
+
+\cventry[1em]
+{2021}
+{SeidarT: Seismic and radar survey modeling toolbox}
+{}
+{}
+{}
+{
+    \stevebernsen{}, \chris{}, \me{}, and Ben Hills
+    \\
+    \url{https://github.com/UMainedynamics/SeidarT}
+}
+
+\cventry[1em]
+{2020}
+{rsudp: Continuous visual display, sudden motion monitoring,
+and historical replay of Raspberry Shake data}
+{}
+{}
+{}
+{
+    \me{}, \richard{}, and Justin Long
+    \\
+    \url{https://github.com/raspishake/rsudp}
+    \\
+    doi: \doi{10.21105/joss.02565}
+}
+
+\cventry[1em]
+{2019}
+{gpx2dzg: a tool to convert GPX files to GSSI's proprietary DZG
+format, and plot comparisons of marks in GPX and DZT/DZX files}
+{Zenodo}
+{}
+{}
+{
+    Developer and maintainer
+    \\
+    \url{https://github.com/iannesbitt/gpx2dzg}
+    \\
+    doi: \doi{10.5281/zenodo.3260948}
+}
+
+\cventry[1em]
+{2019}
+{readgssi: an open-source tool to read and plot GSSI
+ground-penetrating radar data}
+{Zenodo}
+{}
+{}
+{
+    Developer and maintainer
+    \\
+    \url{https://github.com/iannesbitt/readgssi}
+    \\
+    doi: \doi{10.5281/zenodo.1439119}
+}
+
+
+% \section{Reviewer}
+
+% \cvlistitem{
+%     \href
+%     {https://openresearchsoftware.metajnl.com/}
+%     {Journal of Open Research Software}
+% }
+
+
+\section{Technical Skills}
+
+\cvline{Programming}
+{
+    Python, bash, javascript
+}
+\cvline{Markup}
+{
+    Markdown, LaTeX, HTML, CSS
+}
+\cvline{Tools}
+{
+    GNU/Linux, Unix Terminal, bash, zsh, git, GitHub, Jupyter
+    Notebooks, GNU Make, Inkscape, GIMP
+}
+
+\section{Languages}
+
+\cvlanguage{English}{Native}{}
+\cvlanguage{Spanish}{Beginner}{}
+
+\end{document}
